@@ -1,0 +1,417 @@
+{
+  "nifti_sha256": "2a9b08d58414feba1cc45b7343338117bd82be8a35862969f0213ccc0d52e28a",
+  "labelling_mode": "component",
+  "phantom": {
+    "name": "SPIRIT",
+    "part_number": "A-3011-0003",
+    "issue": "1.0",
+    "description": "SPIRIT multi-sample lenticular phantom"
+  },
+  "generation": {
+    "timestamp": "2026-03-24T12:51:08.301365+00:00",
+    "phantom_atlas_version": "0.1.1.dev11+ge23368108",
+    "phantom_atlas_git_hash": null,
+    "stl_processing_version": "0.5.0",
+    "cadquery_version": "2.5.2"
+  },
+  "volume_config": {
+    "voxel_size_mm": 1.0,
+    "subvoxel_size_mm": 1.0,
+    "background_intensity": 0.0,
+    "margin_mm": 0.5,
+    "data_type": "uint8",
+    "rebinning_method": "mode"
+  },
+  "materials": [
+    {
+      "name": "nalgene_vial_1",
+      "intensity": 1,
+      "description": "Nalgene 4ml vial fluid 1",
+      "signal_group": "nalgene_vial_1_fluid"
+    },
+    {
+      "name": "nalgene_vial_2",
+      "intensity": 2,
+      "description": "Nalgene 4ml vial fluid 2",
+      "signal_group": "nalgene_vial_2_fluid"
+    },
+    {
+      "name": "nalgene_vial_3",
+      "intensity": 3,
+      "description": "Nalgene 4ml vial fluid 3",
+      "signal_group": "nalgene_vial_3_fluid"
+    },
+    {
+      "name": "nalgene_vial_4",
+      "intensity": 4,
+      "description": "Nalgene 4ml vial fluid 4",
+      "signal_group": "nalgene_vial_4_fluid"
+    },
+    {
+      "name": "nalgene_vial_5",
+      "intensity": 5,
+      "description": "Nalgene 4ml vial fluid 5",
+      "signal_group": "nalgene_vial_5_fluid"
+    },
+    {
+      "name": "nalgene_vial_6",
+      "intensity": 6,
+      "description": "Nalgene 4ml vial fluid 6",
+      "signal_group": "nalgene_vial_6_fluid"
+    },
+    {
+      "name": "nalgene_vial_7",
+      "intensity": 7,
+      "description": "Nalgene 4ml vial fluid 7",
+      "signal_group": "nalgene_vial_7_fluid"
+    },
+    {
+      "name": "nalgene_vial_8",
+      "intensity": 8,
+      "description": "Nalgene 4ml vial fluid 8",
+      "signal_group": "nalgene_vial_8_fluid"
+    },
+    {
+      "name": "nalgene_vial_9",
+      "intensity": 9,
+      "description": "Nalgene 4ml vial fluid 9",
+      "signal_group": "nalgene_vial_9_fluid"
+    },
+    {
+      "name": "nalgene_vial_10",
+      "intensity": 10,
+      "description": "Nalgene 4ml vial fluid 10",
+      "signal_group": "nalgene_vial_10_fluid"
+    },
+    {
+      "name": "nalgene_vial_11",
+      "intensity": 11,
+      "description": "Nalgene 4ml vial fluid 11",
+      "signal_group": "nalgene_vial_11_fluid"
+    },
+    {
+      "name": "nalgene_vial_12",
+      "intensity": 12,
+      "description": "Nalgene 4ml vial fluid 12",
+      "signal_group": "nalgene_vial_12_fluid"
+    },
+    {
+      "name": "nalgene_vial_13",
+      "intensity": 13,
+      "description": "Nalgene 4ml vial fluid 13",
+      "signal_group": "nalgene_vial_13_fluid"
+    },
+    {
+      "name": "nalgene_vial_14",
+      "intensity": 14,
+      "description": "Nalgene 4ml vial fluid 14",
+      "signal_group": "nalgene_vial_14_fluid"
+    },
+    {
+      "name": "nalgene_vial_15",
+      "intensity": 15,
+      "description": "Nalgene 4ml vial fluid 15",
+      "signal_group": "nalgene_vial_15_fluid"
+    },
+    {
+      "name": "nalgene_vial_16",
+      "intensity": 16,
+      "description": "Nalgene 4ml vial fluid 16",
+      "signal_group": "nalgene_vial_16_fluid"
+    },
+    {
+      "name": "deltalab_vial_1",
+      "intensity": 17,
+      "description": "DeltaLab 10ml vial fluid 1",
+      "signal_group": "deltalab_vial_1_fluid"
+    },
+    {
+      "name": "deltalab_vial_2",
+      "intensity": 18,
+      "description": "DeltaLab 10ml vial fluid 2",
+      "signal_group": "deltalab_vial_2_fluid"
+    },
+    {
+      "name": "deltalab_vial_3",
+      "intensity": 19,
+      "description": "DeltaLab 10ml vial fluid 3",
+      "signal_group": "deltalab_vial_3_fluid"
+    },
+    {
+      "name": "deltalab_vial_4",
+      "intensity": 20,
+      "description": "DeltaLab 10ml vial fluid 4",
+      "signal_group": "deltalab_vial_4_fluid"
+    },
+    {
+      "name": "nmr_tube_1",
+      "intensity": 21,
+      "description": "NMR tube fluid 1",
+      "signal_group": "nmr_tube_fluid"
+    },
+    {
+      "name": "nmr_tube_2",
+      "intensity": 22,
+      "description": "NMR tube fluid 2",
+      "signal_group": "nmr_tube_fluid"
+    },
+    {
+      "name": "nalgene_vial_body_1",
+      "intensity": 43,
+      "description": "Nalgene 4ml vial body 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_2",
+      "intensity": 44,
+      "description": "Nalgene 4ml vial body 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_3",
+      "intensity": 45,
+      "description": "Nalgene 4ml vial body 3",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_4",
+      "intensity": 46,
+      "description": "Nalgene 4ml vial body 4",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_5",
+      "intensity": 47,
+      "description": "Nalgene 4ml vial body 5",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_6",
+      "intensity": 48,
+      "description": "Nalgene 4ml vial body 6",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_7",
+      "intensity": 49,
+      "description": "Nalgene 4ml vial body 7",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_8",
+      "intensity": 50,
+      "description": "Nalgene 4ml vial body 8",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_9",
+      "intensity": 51,
+      "description": "Nalgene 4ml vial body 9",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_10",
+      "intensity": 52,
+      "description": "Nalgene 4ml vial body 10",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_11",
+      "intensity": 53,
+      "description": "Nalgene 4ml vial body 11",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_12",
+      "intensity": 54,
+      "description": "Nalgene 4ml vial body 12",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_13",
+      "intensity": 55,
+      "description": "Nalgene 4ml vial body 13",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_14",
+      "intensity": 56,
+      "description": "Nalgene 4ml vial body 14",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_15",
+      "intensity": 57,
+      "description": "Nalgene 4ml vial body 15",
+      "signal_group": "background"
+    },
+    {
+      "name": "nalgene_vial_body_16",
+      "intensity": 58,
+      "description": "Nalgene 4ml vial body 16",
+      "signal_group": "background"
+    },
+    {
+      "name": "deltalab_vial_body_1",
+      "intensity": 59,
+      "description": "DeltaLab 10ml vial body 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "deltalab_vial_body_2",
+      "intensity": 60,
+      "description": "DeltaLab 10ml vial body 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "deltalab_vial_body_3",
+      "intensity": 61,
+      "description": "DeltaLab 10ml vial body 3",
+      "signal_group": "background"
+    },
+    {
+      "name": "deltalab_vial_body_4",
+      "intensity": 62,
+      "description": "DeltaLab 10ml vial body 4",
+      "signal_group": "background"
+    },
+    {
+      "name": "nmr_tube_body_1",
+      "intensity": 63,
+      "description": "NMR tube body 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "nmr_tube_body_2",
+      "intensity": 64,
+      "description": "NMR tube body 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "lower_fiducial_grid",
+      "intensity": 23,
+      "description": "Lower sphere grid for distortion measurement",
+      "signal_group": "background"
+    },
+    {
+      "name": "upper_fiducial_grid",
+      "intensity": 24,
+      "description": "Upper sphere grid for distortion measurement",
+      "signal_group": "background"
+    },
+    {
+      "name": "central_plate",
+      "intensity": 25,
+      "description": "Central mounting plate with fiducial holes",
+      "signal_group": "background"
+    },
+    {
+      "name": "sliced_wedge",
+      "intensity": 26,
+      "description": "Slice thickness measurement wedge",
+      "signal_group": "background"
+    },
+    {
+      "name": "lower_mid_plate",
+      "intensity": 27,
+      "description": "Lower middle mounting plate",
+      "signal_group": "background"
+    },
+    {
+      "name": "lower_plate",
+      "intensity": 28,
+      "description": "Lower mounting plate",
+      "signal_group": "background"
+    },
+    {
+      "name": "upper_mid_plate",
+      "intensity": 29,
+      "description": "Upper middle mounting plate",
+      "signal_group": "background"
+    },
+    {
+      "name": "upper_plate",
+      "intensity": 30,
+      "description": "Upper mounting plate",
+      "signal_group": "background"
+    },
+    {
+      "name": "outer_post_1",
+      "intensity": 31,
+      "description": "Outer structural post 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "outer_post_2",
+      "intensity": 32,
+      "description": "Outer structural post 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "outer_post_3",
+      "intensity": 33,
+      "description": "Outer structural post 3",
+      "signal_group": "background"
+    },
+    {
+      "name": "outer_post_4",
+      "intensity": 34,
+      "description": "Outer structural post 4",
+      "signal_group": "background"
+    },
+    {
+      "name": "inner_post_1",
+      "intensity": 35,
+      "description": "Inner structural post 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "inner_post_2",
+      "intensity": 36,
+      "description": "Inner structural post 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "top_screw_1",
+      "intensity": 37,
+      "description": "Top M6x15 screw 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "top_screw_2",
+      "intensity": 38,
+      "description": "Top M6x15 screw 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "mid_screw_1",
+      "intensity": 39,
+      "description": "Middle M6x15 screw 1",
+      "signal_group": "background"
+    },
+    {
+      "name": "mid_screw_2",
+      "intensity": 40,
+      "description": "Middle M6x15 screw 2",
+      "signal_group": "background"
+    },
+    {
+      "name": "mid_screw_3",
+      "intensity": 41,
+      "description": "Middle M6x15 screw 3",
+      "signal_group": "background"
+    },
+    {
+      "name": "mid_screw_4",
+      "intensity": 42,
+      "description": "Middle M6x15 screw 4",
+      "signal_group": "background"
+    },
+    {
+      "name": "flood_volume",
+      "intensity": 100,
+      "description": "Main flood volume (buffer medium)",
+      "signal_group": "flood"
+    }
+  ]
+}
