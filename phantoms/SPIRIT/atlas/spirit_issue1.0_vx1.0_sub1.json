@@ -1,5 +1,5 @@
 {
-  "nifti_sha256": "514330e15f178b727bc47f41f64d70acce9fcc4bf5923399d45c19d73f357be5",
+  "nifti_sha256": "5952caae88fc4a13d85432ead233681d90923bf65bcb068c6113d3bd3d6655eb",
   "labelling_mode": "signal",
   "phantom": {
     "name": "SPIRIT",
@@ -8,11 +8,11 @@
     "description": "SPIRIT multi-sample lenticular phantom"
   },
   "generation": {
-    "timestamp": "2026-03-20T21:42:35.930787+00:00",
-    "phantom_atlas_version": "0.1.1.dev11+ge23368108",
+    "timestamp": "2026-10-23T10:57:38.460356+00:00",
+    "phantom_atlas_version": "0.1.1.dev16+gf8bac7eb2",
     "phantom_atlas_git_hash": null,
     "stl_processing_version": "0.5.0",
-    "cadquery_version": "2.5.2"
+    "cadquery_version": "2.8.0"
   },
   "volume_config": {
     "voxel_size_mm": 1.0,
